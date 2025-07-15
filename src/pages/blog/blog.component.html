@@ -1,0 +1,26 @@
+<article class="blog" data-page="blog">
+  <header>
+    <h2 class="h2 article-title">Blog</h2>
+  </header>
+
+  <section class="blog-posts">
+    <ul class="blog-posts-list">
+      <li class="blog-post-item" *ngFor="let post of posts">
+        <a href="{{ post.link }}" target="_blank">
+          <figure class="blog-banner-box">
+            <img [src]="post.imagem" [alt]="post.titulo" loading="lazy">
+          </figure>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <p class="blog-category">{{ post.categoria }}</p>
+              <span class="dot"></span>
+              <time [attr.datetime]="post.dataISO">{{ post.dataBR }}</time>
+            </div>
+            <h3 class="h3 blog-item-title">{{ post.titulo }}</h3>
+            <p class="blog-text">{{ post.texto }}</p>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </section>
+</article>

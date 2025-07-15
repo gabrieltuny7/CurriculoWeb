@@ -1,0 +1,45 @@
+<article class="portfolio" data-page="portfolio">
+  <header>
+    <h2 class="h2 article-title">Portfólio</h2>
+  </header>
+
+  <section class="projects">
+    <ul class="filter-list">
+      <li class="filter-item"><button class="active" (click)="setCategory('todos')">Todos</button></li>
+      <li class="filter-item"><button (click)="setCategory('web')">Web</button></li>
+      <li class="filter-item"><button (click)="setCategory('aplicativos')">Aplicativos</button></li>
+      <li class="filter-item"><button (click)="setCategory('automacao')">Automação</button></li>
+    </ul>
+
+    <div class="filter-select-box">
+      <button class="filter-select" (click)="toggleSelect()" [class.active]="selectOpen">
+        <div class="select-value">{{ categoriaSelecionadaNome }}</div>
+        <div class="select-icon">
+          <ion-icon name="chevron-down"></ion-icon>
+        </div>
+      </button>
+
+      <ul class="select-list" *ngIf="selectOpen">
+        <li class="select-item"><button (click)="setCategory('todos')">Todos</button></li>
+        <li class="select-item"><button (click)="setCategory('web')">Web</button></li>
+        <li class="select-item"><button (click)="setCategory('aplicativos')">Aplicativos</button></li>
+        <li class="select-item"><button (click)="setCategory('automacao')">Automação</button></li>
+      </ul>
+    </div>
+
+    <ul class="project-list">
+      <li *ngFor="let projeto of projetosFiltrados()" class="project-item active" data-filter-item>
+        <a href="{{ projeto.link }}" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img [src]="projeto.imagem" [alt]="projeto.titulo" loading="lazy">
+          </figure>
+          <h3 class="project-title">{{ projeto.titulo }}</h3>
+          <p class="project-category">{{ projeto.categoriaNome }}</p>
+        </a>
+      </li>
+    </ul>
+  </section>
+</article>

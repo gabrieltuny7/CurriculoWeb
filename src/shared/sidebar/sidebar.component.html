@@ -1,0 +1,23 @@
+<aside class="sidebar" [class.active]="sidebarActive">
+  <div class="sidebar-info">
+    <figure class="avatar-box">
+      <img src="https://i.postimg.cc/JzBWVhW4/my-avatar.png" alt="avatar" width="80">
+    </figure>
+    <div class="info-content">
+      <h1 class="name" title="Seu Nome">Gabriel Tuny</h1>
+      <p class="title">Analista de Sistemas </p>
+      <br>
+      <p class="title">Desenvolvedor </p>
+      <br>  
+      <p class="title">Instrutor de Robotica Educacional e Competitiva</p>
+    </div>
+    <button class="info-more-btn" (click)="toggleSidebar()">
+      <span>Mostrar Contatos</span>
+      <ion-icon name="chevron-down"></ion-icon>
+    </button>
+  </div>
+
+  <div class="sidebar-info-more">
+    <!-- contatos, redes sociais... -->
+  </div>
+</aside>
