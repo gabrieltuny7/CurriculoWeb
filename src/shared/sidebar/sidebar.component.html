@@ -1,16 +1,18 @@
-<aside class="sidebar" [class.active]="sidebarActive">
+<aside class="sidebar" [class.active]="sidebarActive" data-sidebar>
   <div class="sidebar-info">
     <figure class="avatar-box">
-      <img src="https://i.postimg.cc/JzBWVhW4/my-avatar.png" alt="avatar" width="80">
+      <img src="https://i.postimg.cc/nzZjNJYf/avatar-Tuny.png" alt="avatar" width="80">
     </figure>
+
+
     <div class="info-content">
-      <h1 class="name" title="Seu Nome">Gabriel Tuny</h1>
-      <p class="title">Analista de Sistemas </p>
+      <h1 class="name" title="Seu Nome Completo">Gabriel Costa (Tuny)</h1>
+      <p class="title">Desenvolvedor & Analista de Sistemas</p>
       <br>
-      <p class="title">Desenvolvedor </p>
-      <br>  
       <p class="title">Instrutor de Robotica Educacional e Competitiva</p>
+
     </div>
+
     <button class="info-more-btn" (click)="toggleSidebar()">
       <span>Mostrar Contatos</span>
       <ion-icon name="chevron-down"></ion-icon>
@@ -18,6 +20,70 @@
   </div>
 
   <div class="sidebar-info-more">
-    <!-- contatos, redes sociais... -->
+    <div class="separator"></div>
+
+    <ul class="contacts-list">
+      <!-- Email -->
+      <li class="contact-item">
+        <div class="icon-box">
+          <ion-icon name="mail-outline"></ion-icon>
+        </div>
+        <div class="contact-info">
+          <p class="contact-title">Email</p>
+          <a href="mailto:seu.email@exemplo.com" class="contact-link">gabrielcostaquirino&#64;gmail.com</a>
+        </div>
+      </li>
+      <!-- Telefone -->
+      <li class="contact-item">
+        <div class="icon-box">
+          <ion-icon name="phone-portrait-outline"></ion-icon>
+        </div>
+        <div class="contact-info">
+          <p class="contact-title">Telefone</p>
+          <a href="tel:+5511999999999" class="contact-link">(62) 98419-4751</a>
+        </div>
+      </li>
+      <!-- Aniversário -->
+      <li class="contact-item">
+        <div class="icon-box">
+          <ion-icon name="calendar-outline"></ion-icon>
+        </div>
+        <div class="contact-info">
+          <p class="contact-title">Aniversário</p>
+          <time datetime="1982-06-23">31 de outubro de 2003</time>
+        </div>
+      </li>
+      <!-- Localização -->
+      <li class="contact-item">
+        <div class="icon-box">
+          <ion-icon name="location-outline"></ion-icon>
+        </div>
+        <div class="contact-info">
+          <p class="contact-title">Localização</p>
+          <address>Turvânia, Goiás, Brasil</address>
+        </div>
+      </li>
+    </ul>
+
+    <div class="separator"></div>
+
+    <ul class="social-list">
+      <li class="social-item">
+        <a href="https://facebook.com/seuusuario" class="social-link" target="_blank">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+      </li>
+      <li class="social-item">
+        <a href="https://twitter.com/seuusuario" class="social-link" target="_blank">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a>
+      </li>
+      <li class="social-item">
+        <a href="https://instagram.com/seuusuario" class="social-link" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+      </li>
+      <!-- adicione mais redes aqui -->
+    </ul>
   </div>
 </aside>

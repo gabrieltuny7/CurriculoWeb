@@ -40,12 +40,12 @@ export class BlogComponent {
       link: '#'
     },
     {
-      titulo: 'Robótica Educacional: por onde começar?',
-      categoria: 'Educação',
+      titulo: 'Festival Sesi de Robótica',
+      categoria: 'Participação como Juiz da Competição',
       dataISO: '2025-01-15',
-      dataBR: '15/01/2025',
-      imagem: 'https://i.postimg.cc/W1T71QcL/blog-3.jpg',
-      texto: 'Dicas e recursos para quem quer iniciar projetos de robótica nas escolas.',
+      dataBR: '2022 - Atualmente',
+      imagem: 'https://i.postimg.cc/k5TtbZPQ/Festival-Sesi-De-Robotica.png',
+      texto: 'O Festival Sesi de Robótica é um dos maiores eventos educacionais do Brasil voltados para tecnologia, ele ocorre todos os anos. Ele reúne estudantes de todos os estados para competições, como a FIRST LEGO League (FLL), FIRST Tech Challenge (FTC), FIRST Robotics Competition e STEAM Racing.',
       link: '#'
     },
     // Adicione mais posts conforme seu interesse

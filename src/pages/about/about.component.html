@@ -62,4 +62,46 @@
       </li>
     </ul>
   </section>
+
+  <section class="testimonials">
+  <h3 class="h3 testimonials-title">Depoimentos</h3>
+  <ul class="testimonials-list has-scrollbar">
+    <li class="testimonials-item" *ngFor="let t of testimonials">
+      <div class="content-card" data-testimonials-item (click)="openModal(t)">
+        <figure class="testimonials-avatar-box">
+          <img [src]="t.avatar" alt="{{t.name}}" data-testimonials-avatar width="60">
+        </figure>
+        <h4 class="h4 testimonials-item-title" data-testimonials-title>{{ t.name }}</h4>
+        <div class="testimonials-text" data-testimonials-text>
+          <p>{{ t.preview }}</p>
+        </div>
+      </div>
+    </li>
+  </ul>
+
+  <!-- Modal -->
+  <div class="modal-container" [class.active]="modalOpen" data-modal-container>
+    <div class="overlay" data-overlay (click)="closeModal()"></div>
+    <section class="testimonials-modal">
+      <button class="modal-close-btn" data-modal-close-btn (click)="closeModal()">
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+      <div class="modal-img-wrapper">
+        <figure class="modal-avatar-box">
+          <img [src]="selected.avatar" alt="{{selected.name}}" width="80" data-modal-img>
+        </figure>
+        <img src="https://i.postimg.cc/mZ00RwX7/icon-quote.png" alt="quote icon">
+      </div>
+      <div class="modal-content">
+        <h4 class="h3 modal-title" data-modal-title>{{ selected.name }}</h4>
+        <time [attr.datetime]="selected.dateISO">{{ selected.date }}</time>
+        <div class="modal-text" data-modal-text>
+          <p>{{ selected.text }}</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</section>
+
+
 </article>
