@@ -22,7 +22,7 @@ interface Testimonial {
 export class AboutComponent {
   testimonials: Testimonial[] = [
     {
-      name: 'Daniel Lewis',
+      name: 'Leandro Hall',
       avatar: 'https://i.postimg.cc/zGDHfn3G/avatar-1.png',
       preview: 'Richard foi contratado para criar uma identidade corporativa...',
       text: `Richard foi contratado para criar uma identidade corporativa. É moderno, limpo e com um design...`,
@@ -30,7 +30,23 @@ export class AboutComponent {
       dateISO: '2023-06-14'
     },
     {
-      name: 'Jessica Miller',
+      name: 'Dayane Dias',
+      avatar: 'https://i.postimg.cc/DwY0yHtx/avatar-2.png',
+      preview: 'Trabalhar com Richard foi um prazer absoluto...',
+      text: `Trabalhar com Richard foi um prazer absoluto. Fiquei impressionada com sua atenção aos detalhes...`,
+      date: '20 de maio de 2023',
+      dateISO: '2023-05-20'
+    },
+    {
+      name: 'Flamarion Moreira',
+      avatar: 'https://i.postimg.cc/zGDHfn3G/avatar-1.png',
+      preview: 'Trabalhar com Richard foi um prazer absoluto...',
+      text: `Trabalhar com Richard foi um prazer absoluto. Fiquei impressionada com sua atenção aos detalhes...`,
+      date: '20 de maio de 2023',
+      dateISO: '2023-05-20'
+    },
+    {
+      name: 'Mariana Silva',
       avatar: 'https://i.postimg.cc/DwY0yHtx/avatar-2.png',
       preview: 'Trabalhar com Richard foi um prazer absoluto...',
       text: `Trabalhar com Richard foi um prazer absoluto. Fiquei impressionada com sua atenção aos detalhes...`,

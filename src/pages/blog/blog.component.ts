@@ -46,7 +46,7 @@ export class BlogComponent {
       dataBR: '2022 - Atualmente',
       imagem: 'https://i.postimg.cc/k5TtbZPQ/Festival-Sesi-De-Robotica.png',
       texto: 'O Festival Sesi de Robótica é um dos maiores eventos educacionais do Brasil voltados para tecnologia, ele ocorre todos os anos. Ele reúne estudantes de todos os estados para competições, como a FIRST LEGO League (FLL), FIRST Tech Challenge (FTC), FIRST Robotics Competition e STEAM Racing.',
-      link: '#'
+      link: 'https://g1.globo.com/especial-publicitario/festival-sesi-de-robotica/noticia/2022/05/29/conheca-os-campeoes-do-festival-sesi-de-robotica.ghtml'
     },
     // Adicione mais posts conforme seu interesse
   ];

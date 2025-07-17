@@ -18,12 +18,12 @@
     <ul class="service-list">
       <li class="service-item">
         <div class="service-icon-box">
-          <img src="https://i.postimg.cc/4389jZkP/icon-design.png" alt="icon" width="40">
+          <img src="https://i.postimg.cc/ZqgqrqzG/icon-dev.png" alt="icon" width="40">
         </div>
         <div class="service-content-box">
-          <h4 class="h4 service-item-title">Desenvolvimento Web</h4>
+          <h4 class="h4 service-item-title">Desenvolvimento de Sistemas</h4>
           <p class="service-item-text">
-            Desenvolvimento de aplicações web modernas, rápidas e responsivas.
+            Desenvolvimento de aplicações modernas, rápidas e responsivas.
           </p>
         </div>
       </li>
@@ -40,12 +40,12 @@
       </li>
       <li class="service-item">
         <div class="service-icon-box">
-          <img src="https://i.postimg.cc/xjLdzYxZ/icon-app.png" alt="icon" width="40">
+          <img src="https://i.postimg.cc/4389jZkP/icon-design.png" alt="icon" width="40">
         </div>
         <div class="service-content-box">
-          <h4 class="h4 service-item-title">Apps Mobile</h4>
+          <h4 class="h4 service-item-title">Automação</h4>
           <p class="service-item-text">
-            Desenvolvimento de apps para Android e iOS.
+            Desenvolvimento de sistemas autônomos para agilizar processos.
           </p>
         </div>
       </li>
@@ -54,9 +54,9 @@
           <img src="https://i.postimg.cc/0NL8zHpx/icon-photo.png" alt="icon" width="40">
         </div>
         <div class="service-content-box">
-          <h4 class="h4 service-item-title">Automação & Robótica</h4>
+          <h4 class="h4 service-item-title">Robótica</h4>
           <p class="service-item-text">
-            Experiência com robótica educacional e automação de processos.
+            Experiência com robótica educacional e participações em competições.
           </p>
         </div>
       </li>
@@ -80,7 +80,7 @@
   </ul>
 
   <!-- Modal -->
-  <div class="modal-container" [class.active]="modalOpen" data-modal-container>
+  <div *ngIf="modalOpen" class="modal-container active" data-modal-container>
     <div class="overlay" data-overlay (click)="closeModal()"></div>
     <section class="testimonials-modal">
       <button class="modal-close-btn" data-modal-close-btn (click)="closeModal()">
