@@ -22,32 +22,59 @@ interface Post {
 export class BlogComponent {
   posts: Post[] = [
     {
-      titulo: 'Eventos de Tecnologia 2025',
-      categoria: 'Tech',
+      titulo: 'CAMPUS PARTY GOIAS',
+      categoria: 'Participação como Visitante',
       dataISO: '2025-03-05',
-      dataBR: '05/03/2025',
-      imagem: 'https://i.postimg.cc/DysCZrWs/blog-1.jpg',
-      texto: 'Principais eventos e feiras de tecnologia previstos para 2025 no Brasil e no mundo.',
-      link: '#'
-    },
-    {
-      titulo: 'Tendências em Desenvolvimento Web',
-      categoria: 'Web',
-      dataISO: '2025-02-10',
-      dataBR: '10/02/2025',
-      imagem: 'https://i.postimg.cc/QC7qFDMs/blog-2.jpg',
-      texto: 'Quais são as tendências que estão movimentando o mercado de desenvolvimento web neste ano.',
-      link: '#'
+      dataBR: '2024 - Atualmente',
+      imagem: 'https://i.postimg.cc/MGpbL949/Campus-Party.webp',
+      texto: 'A Campus Party Goiás é a maior edição regional do festival brasileiro de tecnologia, inovação e criatividade. Ela reúne milhares de pessoas interessadas em tecnologia, ciência, empreendedorismo e cultura digital.',
+      link: 'https://brasil.campus-party.org/cpgoias4/'
     },
     {
       titulo: 'Festival Sesi de Robótica',
-      categoria: 'Participação como Juiz da Competição',
+      categoria: 'Participações como Juiz, Técnico e Competidor',
       dataISO: '2025-01-15',
       dataBR: '2022 - Atualmente',
       imagem: 'https://i.postimg.cc/k5TtbZPQ/Festival-Sesi-De-Robotica.png',
       texto: 'O Festival Sesi de Robótica é um dos maiores eventos educacionais do Brasil voltados para tecnologia, ele ocorre todos os anos. Ele reúne estudantes de todos os estados para competições, como a FIRST LEGO League (FLL), FIRST Tech Challenge (FTC), FIRST Robotics Competition e STEAM Racing.',
       link: 'https://g1.globo.com/especial-publicitario/festival-sesi-de-robotica/noticia/2022/05/29/conheca-os-campeoes-do-festival-sesi-de-robotica.ghtml'
     },
-    // Adicione mais posts conforme seu interesse
+    {
+      titulo: 'FIRST Lego League - OPEN BRAZIL ',
+      categoria: 'Participação como Mentor',
+      dataISO: '2025-01-15',
+      dataBR: '2022',
+      imagem: 'https://i.postimg.cc/mDPbmFsP/Open-Brazil2022.jpg',
+      texto: 'O FIRST LEGO League International Open Brazil 2022, organizado pelo SESI, foi realizado de 5 a 7 de agosto de 2022 no Píer Mauá, em Rio de Janeiro. Em paralelo ao evento, aconteceu também o Off Season da First Robotics Competition. Foi a primeira vez que o Brasil sediou esta edição International Open, consolidando-se como um grande hub de robótica educacional na América Latina.',
+      link: 'https://esportegoiano.com.br/tecnico-robotica-goiano-eleito-melhor-brasil-evento-rj/'
+    },
+    {
+      titulo: 'Olimpíada Brasileira de Satélites MCTI: OBSAT',
+      categoria: 'Participação como Mentor',
+      dataISO: '2025-01-15',
+      dataBR: '2023',
+      imagem: 'https://i.postimg.cc/jdMct0bz/Obsat.png',
+      texto: 'A Olimpíada Brasileira de Satélites MCTI (OBSAT MCTI) é uma olimpíada bianual que nasce de uma iniciativa inovadora que visa promover experiências teóricas e práticas em projetos de satélites de pequeno porte, conhecidos como smallsats, disseminando a cultura aeroespacial e o conhecimento em STEM (Ciência, Tecnologia, Engenharia e Matemática) entre estudantes e professores de todos os níveis de ensino.',
+      link: 'https://www.obsat.org.br/index.html'
+    },
+    {
+      titulo: 'Expo Fecomércio',
+      categoria: 'Participação como Visitante',
+      dataISO: '2025-02-10',
+      dataBR: '2024',
+      imagem: 'https://i.postimg.cc/65rtTc36/expofecormecio.jpg',
+      texto: 'A Expo Fecomércio é considerada a maior exposição do comércio de bens, serviços e turismo da região Centro-Norte do Brasil. O evento também destacou a importância da Inteligência Artificial no comércio, com palestras e discussões sobre o tema, mostrando como essa tecnologia pode ser utilizada para impulsionar negócios e melhorar a experiência do cliente.',
+      link: 'https://www.instagram.com/expofecomercio/'
+    },
+    {
+      titulo: 'Expo Peças',
+      categoria: 'Participações como Voluntário e Visitante',
+      dataISO: '2025-02-10',
+      dataBR: '2019,2021,2023',
+      imagem: 'https://i.postimg.cc/NFjKsn6n/icon-expope-as.webp',
+      texto: 'A Expo Peças é a maior feira de negócios, tecnologias e peças automotivas do Centro-Oeste, a qual é sediada em Goiânia-GO desde sua primeira edição em 2015.',
+      link: 'https://www.expopecas.com.br/'
+    },
+    
   ];
 }
