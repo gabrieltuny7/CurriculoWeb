@@ -1455,3 +1455,48 @@ textarea.form-input {
 
     .timeline-text { max-width: 700px; }
 }
+
+/* ====== Barra abaixo dos depoimentos no mobile ====== */
+/* ====== drag-handle abaixo dos depoimentos (mobile only) ====== */
+.drag-handle {
+  width: 40px;
+  height: 4px;
+  background: var(--light-gray70);
+  border-radius: 2px;
+  margin: 8px auto;    /* centraliza e dá espaçamento acima */
+}
+
+/* só mostra no mobile/tablet (desktop esconde) */
+@media (min-width: 1024px) {
+  .drag-handle {
+    display: none;
+  }
+}
+
+/* ====== Seta para indicar depoimentos ====== */
+/* seta acima dos depoimentos (mobile only) */
+.scroll-indicator {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.scroll-indicator ion-icon {
+  font-size: 1.5rem;
+  color: var(--light-gray70);
+  animation: arrowBounce 1.2s ease-in-out infinite;
+}
+
+/* animação de “bater” para a direita */
+@keyframes arrowBounce {
+  0%, 100% { transform: translateX(0); }
+  50%      { transform: translateX(8px); }
+}
+
+/* esconde em desktop */
+@media (min-width: 1024px) {
+  .scroll-indicator {
+    display: none;
+  }
+}

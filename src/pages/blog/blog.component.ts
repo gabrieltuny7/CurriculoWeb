@@ -35,7 +35,7 @@ export class BlogComponent {
       categoria: 'Participações como Juiz, Técnico e Competidor',
       dataISO: '2025-01-15',
       dataBR: '2022 - Atualmente',
-      imagem: 'https://i.postimg.cc/k5TtbZPQ/Festival-Sesi-De-Robotica.png',
+      imagem: 'https://i.postimg.cc/y8dRK4Dq/festival-robotica-Brasilia.jpg',
       texto: 'O Festival Sesi de Robótica é um dos maiores eventos educacionais do Brasil voltados para tecnologia, ele ocorre todos os anos. Ele reúne estudantes de todos os estados para competições, como a FIRST LEGO League (FLL), FIRST Tech Challenge (FTC), FIRST Robotics Competition e STEAM Racing.',
       link: 'https://g1.globo.com/especial-publicitario/festival-sesi-de-robotica/noticia/2022/05/29/conheca-os-campeoes-do-festival-sesi-de-robotica.ghtml'
     },
@@ -44,8 +44,17 @@ export class BlogComponent {
       categoria: 'Participação como Mentor',
       dataISO: '2025-01-15',
       dataBR: '2022',
-      imagem: 'https://i.postimg.cc/mDPbmFsP/Open-Brazil2022.jpg',
+      imagem: 'https://i.postimg.cc/k5TtbZPQ/Festival-Sesi-De-Robotica.png',
       texto: 'O FIRST LEGO League International Open Brazil 2022, organizado pelo SESI, foi realizado de 5 a 7 de agosto de 2022 no Píer Mauá, em Rio de Janeiro. Em paralelo ao evento, aconteceu também o Off Season da First Robotics Competition. Foi a primeira vez que o Brasil sediou esta edição International Open, consolidando-se como um grande hub de robótica educacional na América Latina.',
+      link: 'https://esportegoiano.com.br/tecnico-robotica-goiano-eleito-melhor-brasil-evento-rj/'
+    },
+    {
+      titulo: 'Olimpíada Brasileira de Robótica',
+      categoria: 'Participações como Competidor, Técnico e Mentor',
+      dataISO: '2025-01-15',
+      dataBR: '2019 - Atualmente',
+      imagem: 'https://i.postimg.cc/c4MqS2Vc/obr2025.png',
+      texto: 'A Olimpíada Brasileira de Robótica (OBR) é uma competição educacional que tem como objetivo estimular o interesse dos estudantes pela robótica e pela tecnologia. A OBR é realizada anualmente e envolve equipes de diversas escolas e instituições de ensino.',
       link: 'https://esportegoiano.com.br/tecnico-robotica-goiano-eleito-melhor-brasil-evento-rj/'
     },
     {

@@ -30,6 +30,13 @@ export class PortfolioComponent {
 
   projetos: Projeto[] = [
     {
+      titulo: 'CRM BRSoft',
+      categoria: 'web',
+      categoriaNome: 'Web',
+      imagem: 'https://i.postimg.cc/Vs3kFrqS/Brsoft-Controle-Reset.png',
+      link: 'https://brsoftgo.com.br/login'
+    },
+    {
       titulo: 'Financeiro Web',
       categoria: 'web',
       categoriaNome: 'Web',
