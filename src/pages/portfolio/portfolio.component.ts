@@ -33,7 +33,7 @@ export class PortfolioComponent {
       titulo: 'CRM BRSoft',
       categoria: 'web',
       categoriaNome: 'Web',
-      imagem: 'https://i.postimg.cc/Vs3kFrqS/Brsoft-Controle-Reset.png',
+      imagem: 'https://i.postimg.cc/W34HYH8w/Brsoft-Controle-Reset.png',
       link: 'https://brsoftgo.com.br/login'
     },
     {
