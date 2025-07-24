@@ -24,32 +24,32 @@ export class AboutComponent {
     {
       name: 'Leandro Hall',
       avatar: 'https://i.postimg.cc/zGDHfn3G/avatar-1.png',
-      preview: 'Richard foi contratado para criar uma identidade corporativa...',
-      text: `Richard foi contratado para criar uma identidade corporativa. É moderno, limpo e com um design...`,
-      date: '14 de junho de 2023',
-      dateISO: '2023-06-14'
+      preview: 'Gabriel foi contratado para criar uma identidade corporativa...',
+      text: `Gabriel foi contratado para criar uma identidade corporativa. É moderno, limpo e com um design...`,
+      date: 'junho de 2022',
+      dateISO: '2022-06-14'
     },
     {
       name: 'Dayane Dias',
       avatar: 'https://i.postimg.cc/DwY0yHtx/avatar-2.png',
-      preview: 'Trabalhar com Richard foi um prazer absoluto...',
-      text: `Trabalhar com Richard foi um prazer absoluto. Fiquei impressionada com sua atenção aos detalhes...`,
+      preview: 'Trabalhar com Gabriel foi um prazer absoluto...',
+      text: `Trabalhar com Gabriel foi um prazer absoluto. Fiquei impressionada com sua atenção aos detalhes...`,
       date: '20 de maio de 2023',
       dateISO: '2023-05-20'
     },
     {
       name: 'Flamarion Moreira',
       avatar: 'https://i.postimg.cc/zGDHfn3G/avatar-1.png',
-      preview: 'Trabalhar com Richard foi um prazer absoluto...',
-      text: `Trabalhar com Richard foi um prazer absoluto. Fiquei impressionada com sua atenção aos detalhes...`,
+      preview: 'Trabalhar com Gabriel foi um prazer absoluto...',
+      text: `Trabalhar com Gabriel foi um prazer absoluto. Fiquei impressionada com sua atenção aos detalhes...`,
       date: '20 de maio de 2023',
       dateISO: '2023-05-20'
     },
     {
-      name: 'Mariana Silva',
+      name: 'Patricia Carvalho',
       avatar: 'https://i.postimg.cc/DwY0yHtx/avatar-2.png',
-      preview: 'Trabalhar com Richard foi um prazer absoluto...',
-      text: `Trabalhar com Richard foi um prazer absoluto. Fiquei impressionada com sua atenção aos detalhes...`,
+      preview: 'Trabalhar com Gabriel foi um prazer absoluto...',
+      text: `Trabalhar com Gabriel foi um prazer absoluto. Fiquei impressionada com sua atenção aos detalhes...`,
       date: '20 de maio de 2023',
       dateISO: '2023-05-20'
     },
