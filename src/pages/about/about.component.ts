@@ -30,10 +30,10 @@ export class AboutComponent {
       dateISO: '2022-06-14'
     },
     {
-      name: 'Dayane Dias',
+      name: 'Karol Mazzei',
       avatar: 'https://i.postimg.cc/DwY0yHtx/avatar-2.png',
-      preview: 'Trabalhar com Gabriel foi um prazer absoluto...',
-      text: `Trabalhar com Gabriel foi um prazer absoluto. Fiquei impressionada com sua atenção aos detalhes...`,
+      preview: 'Trabalhar com Gabriel foi ...',
+      text: `Trabalhar com Gabriel foi`,
       date: '20 de maio de 2023',
       dateISO: '2023-05-20'
     },

@@ -1500,3 +1500,11 @@ textarea.form-input {
     display: none;
   }
 }
+
+/* Texto no Final da Página */
+.app-footer {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 0.875rem;
+  color: var(--light-gray70);
+}
