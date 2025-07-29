@@ -5,23 +5,34 @@ import { FormsModule } from '@angular/forms';
 @Component({
   selector: 'app-contact',
   standalone: true,
-  imports: [CommonModule, FormsModule],
+  imports: [
+    CommonModule,
+    FormsModule
+  ],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
   templateUrl: './contact.component.html',
-  styleUrls: ['./contact.component.css'],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA]
+  styleUrls: ['./contact.component.css']
 })
 export class ContactComponent {
-  formData = {
-    fullname: '',
-    email: '',
-    mensagem: ''
-  };
-  sucesso = false;
+  fullname = '';
+  email = '';
+  message = '';
 
-  enviar() {
-    this.sucesso = true;
-    // Aqui você pode implementar integração com e-mail real, API etc.
-    this.formData = { fullname: '', email: '', mensagem: '' };
-    setTimeout(() => (this.sucesso = false), 4000);
-  }
+  sendMessage() {
+  const phone = '5562984194751';
+
+  // Monta todo o texto e faz um único encodeURIComponent
+  const text = encodeURIComponent(
+    `Nome: ${this.fullname}\n` +
+    `Email: ${this.email}\n` +
+    `Mensagem: ${this.message}`
+  );
+
+  // Usa o link wa.me em vez de api.whatsapp.com
+  const url = `https://wa.me/${phone}?text=${text}`;
+
+  window.open(url, '_blank');
+}
+
+
 }
