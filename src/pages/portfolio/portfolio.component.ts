@@ -37,6 +37,13 @@ export class PortfolioComponent {
       link: 'https://brsoftgo.com.br/login'
     },
     {
+      titulo: 'Axion Systems',
+      categoria: 'web',
+      categoriaNome: 'Web',
+      imagem: 'https://i.postimg.cc/J05X0hVB/Axion-Systems-Page.png',
+      link: 'https://axion-blond.vercel.app/'
+    },
+    {
       titulo: 'Financeiro Web',
       categoria: 'web',
       categoriaNome: 'Web',
